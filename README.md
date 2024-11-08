@@ -73,26 +73,26 @@ Once the ESP32 is powered and connected to WiFi:
 - **Sensor Readings**: Reads values from soil moisture, gas sensor, and LDR.
 
 **Control Logic**:
--**Water Pump**: Turns on when soil moisture drops below moistureThreshold. 
--**Fan**: Activates when gas levels exceed gasThreshold.
--**LED**: Turns on when ambient light falls below ldrThreshold.
--**OLED Display**: Displays sensor data locally on an OLED display.
--**Web Dashboard**: Provides real-time data on moisture level, gas level, light intensity, and the status of the pump, fan, and LED.
+- **Water Pump**: Turns on when soil moisture drops below moistureThreshold. 
+- **Fan**: Activates when gas levels exceed gasThreshold.
+- **LED**: Turns on when ambient light falls below ldrThreshold.
+- **OLED Display**: Displays sensor data locally on an OLED display.
+- **Web Dashboard**: Provides real-time data on moisture level, gas level, light intensity, and the status of the pump, fan, and LED.
 
-##Web Dashboard
--**URL**: Use the IP address displayed in the Serial Monitor (e.g., http://192.168.1.xxx) to access the dashboard.
--**Features**:
--Displays current readings and statuses.
--Updates every 5 seconds with the latest data from the greenhouse.
+## Web Dashboard
+- **URL**: Use the IP address displayed in the Serial Monitor (e.g., http://192.168.1.xxx) to access the dashboard.
+- **Features**:
+- Displays current readings and statuses.
+- Updates every 5 seconds with the latest data from the greenhouse.
 
-##Future Enhancements
--**Data Logging:** Store historical data to analyze trends and make better-informed decisions.
--**Dynamic Threshold:** Allow users to adjust thresholds from the web dashboard.
--**Notifications:** Send alerts via email or mobile notifications if levels exceed critical thresholds.
+## Future Enhancements
+- **Data Logging**: Store historical data to analyze trends and make better-informed decisions.
+- **Dynamic Threshold**: Allow users to adjust thresholds from the web dashboard.
+- **Notifications**: Send alerts via email or mobile notifications if levels exceed critical thresholds.
 
-##Troubleshooting
--**Wifi Connection Issue**:  Ensure the SSID and password are correct and that the ESP32 is within range of the WiFi router.
--**Incorrect Sensor Reading**:Verify sensor connections, and ensure proper power supply to each sensor.
--**Dashboard Not accissible**: Confirm the IP address of the ESP32 and ensure it’s correctly entered in the browser.
+## Troubleshooting
+- **Wifi Connection Issue**:  Ensure the SSID and password are correct and that the ESP32 is within range of the WiFi router.
+- **Incorrect Sensor Reading**:Verify sensor connections, and ensure proper power supply to each sensor.
+- **Dashboard Not accissible**: Confirm the IP address of the ESP32 and ensure it’s correctly entered in the browser.
 
 
