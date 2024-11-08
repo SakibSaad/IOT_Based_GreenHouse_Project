@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/f7a8f2cc-5b44-46b6-bd18-fb6d0abdf011" alt="Image 1" height="350" width="400">
+<img src="https://github.com/user-attachments/assets/f7a8f2cc-5b44-46b6-bd18-fb6d0abdf011" alt="Image 1" height="300" width="400">
 <img src="https://github.com/user-attachments/assets/98612a53-307e-4458-9a4c-1876272ffe63" alt="Image 2" width="400">
 <img src="https://github.com/user-attachments/assets/98c28652-95e5-45f4-b9b3-f51f5b9ef505" alt="Image 3" width="400">
 <img src="https://github.com/user-attachments/assets/d4f05bd4-9c4d-410c-ad77-961e8fefed29" alt="Image 4" width="400">
