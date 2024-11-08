@@ -1,3 +1,10 @@
+![IMG20241019005508](https://github.com/user-attachments/assets/f7a8f2cc-5b44-46b6-bd18-fb6d0abdf011)
+![IMG20241019005514](https://github.com/user-attachments/assets/98612a53-307e-4458-9a4c-1876272ffe63)
+![IMG20241019023001](https://github.com/user-attachments/assets/98c28652-95e5-45f4-b9b3-f51f5b9ef505)
+![IMG20241019023008](https://github.com/user-attachments/assets/d4f05bd4-9c4d-410c-ad77-961e8fefed29)
+
+
+
 # IoT-Based Smart Greenhouse Project
 
 This project uses an ESP32 microcontroller to automate and monitor conditions within a greenhouse environment. It measures soil moisture, gas levels, and ambient light, controlling a water pump, fan, and LED based on predefined thresholds. Data is displayed on an OLED screen and can be accessed via a simple web dashboard.
