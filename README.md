@@ -46,3 +46,53 @@ This project uses an ESP32 microcontroller to automate and monitor conditions wi
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+
+3. Install Dependencies: Ensure you have the following libraries installed in your Arduino IDE:
+
+WiFi.h
+Wire.h
+Adafruit_GFX.h
+Adafruit_SSD1306.h
+
+2. **Set WiFi Credentials:**: In the code, replace ssid and password with your WiFi network details:
+   ```bash
+   const char* ssid = "Your_SSID";
+   const char* password = "Your_Password";
+
+4. Upload Code: Connect the ESP32 to your computer and upload the code using the Arduino IDE.
+
+## Usage
+Once the ESP32 is powered and connected to WiFi:
+
+- **Web Dashboard**: Open a browser and navigate to the IP address printed in the Serial Monitor to access the dashboard.
+- **OLED Display**: The OLED will show real-time data on soil moisture, gas level, and light levels within the greenhouse.
+
+
+## Code Explanation
+- **WiFi Setup**: The ESP32 connects to the specified WiFi network and starts a server to host the dashboard.
+- **Sensor Readings**: Reads values from soil moisture, gas sensor, and LDR.
+
+**Control Logic**:
+-**Water Pump**: Turns on when soil moisture drops below moistureThreshold. 
+-**Fan**: Activates when gas levels exceed gasThreshold.
+-**LED**: Turns on when ambient light falls below ldrThreshold.
+-**OLED Display**: Displays sensor data locally on an OLED display.
+-**Web Dashboard**: Provides real-time data on moisture level, gas level, light intensity, and the status of the pump, fan, and LED.
+
+##Web Dashboard
+-**URL**: Use the IP address displayed in the Serial Monitor (e.g., http://192.168.1.xxx) to access the dashboard.
+-**Features**:
+-Displays current readings and statuses.
+-Updates every 5 seconds with the latest data from the greenhouse.
+
+##Future Enhancements
+-**Data Logging:** Store historical data to analyze trends and make better-informed decisions.
+-**Dynamic Threshold:** Allow users to adjust thresholds from the web dashboard.
+-**Notifications:** Send alerts via email or mobile notifications if levels exceed critical thresholds.
+
+##Troubleshooting
+-**Wifi Connection Issue**:  Ensure the SSID and password are correct and that the ESP32 is within range of the WiFi router.
+-**Incorrect Sensor Reading**:Verify sensor connections, and ensure proper power supply to each sensor.
+-**Dashboard Not accissible**: Confirm the IP address of the ESP32 and ensure it’s correctly entered in the browser.
+
+
